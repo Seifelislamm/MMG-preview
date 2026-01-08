@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', sans-serif;
+}
+
+[dir="ltr"] {
+  font-family: 'Inter', sans-serif;
+}
